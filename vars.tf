@@ -5,7 +5,7 @@ variable "name" {
     default = "docdb"
 }
 variable "vpc_id" {}
-variable "aloow_db_cidr" {}
+variable "allow_db_cidr" {}
 variable "engine_version" {}
 variable "kms_arn" {}
 variable "port_no" {
